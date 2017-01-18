@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_done_all"
+        android:icon="@drawable/ic_done_all"
+        app:showAsAction="always"
+        android:title="Done">
+    </item>
+    <item
+        android:id="@+id/menu_move"
+        android:icon="@drawable/ic_arrow_forward"
+        app:showAsAction="always"
+        android:title="Move">
+    </item>
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="always"
+        android:title="Delete">
+    </item>
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always"
+        android:title="Share">
+    </item>
+    <item
+        android:id="@+id/menu_sort"
+        android:icon="@drawable/ic_sort"
+        app:showAsAction="always"
+        android:title="Sort">
+    </item>
+    <item
+        android:id="@+id/menu_add_multiple"
+        app:showAsAction="never"
+        android:title="Add multiple">
+    </item>
+    <item
+        android:id="@+id/menu_export"
+        app:showAsAction="never"
+        android:title="Export to text file">
+    </item>
+    <item
+        android:id="@+id/menu_feedback"
+        app:showAsAction="never"
+        android:title="Feedback">
+    </item>
+    <item
+        android:id="@+id/menu_settings"
+        app:showAsAction="never"
+        android:title="Settings">
+    </item>
+
+</menu>
